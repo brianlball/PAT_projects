@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <measure>
-  <schema_version>3.0</schema_version>
+  <schema_version>3.1</schema_version>
+  <error>Failed to infer measure name from 'C:/projects/PAT-projects/pat_sddc_office/measures/AedgSmallToMediumOfficeInteriorLighting/measure.rb'</error>
   <name>aedg_small_to_medium_office_interior_lighting</name>
   <uid>e1e16b8f-5cbf-447c-9f76-7fe69b3cf01e</uid>
-  <version_id>fe48650c-2b23-4aab-af3d-8e1532a358ef</version_id>
-  <version_modified>20200512T201424Z</version_modified>
+  <version_id>ededee88-9265-40d6-bc5e-419ba7bf463c</version_id>
+  <version_modified>2025-08-22T15:24:13Z</version_modified>
   <xml_checksum>2DDDDD82</xml_checksum>
   <class_name>AedgSmallToMediumOfficeInteriorLighting</class_name>
   <display_name>AedgSmallToMediumOfficeInteriorLighting</display_name>
@@ -39,34 +40,22 @@
   </attributes>
   <files>
     <file>
-      <filename>BasicOfficeWithOnePlenumFloor.osm</filename>
-      <filetype>osm</filetype>
-      <usage_type>test</usage_type>
-      <checksum>B8BD0491</checksum>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>E0468DD6</checksum>
+    </file>
+    <file>
+      <filename>README.md</filename>
+      <filetype>md</filetype>
+      <usage_type>readme</usage_type>
+      <checksum>0B68E96D</checksum>
     </file>
     <file>
       <filename>README.md.erb</filename>
       <filetype>erb</filetype>
       <usage_type>readmeerb</usage_type>
       <checksum>703C9964</checksum>
-    </file>
-    <file>
-      <filename>README.md</filename>
-      <filetype>md</filetype>
-      <usage_type>readme</usage_type>
-      <checksum>D1FAA041</checksum>
-    </file>
-    <file>
-      <filename>AedgSmallToMediumOfficeInteriorLighting_Test.rb</filename>
-      <filetype>rb</filetype>
-      <usage_type>test</usage_type>
-      <checksum>CC5312DB</checksum>
-    </file>
-    <file>
-      <filename>LICENSE.md</filename>
-      <filetype>md</filetype>
-      <usage_type>license</usage_type>
-      <checksum>E0468DD6</checksum>
     </file>
     <file>
       <version>
@@ -84,6 +73,54 @@
       <filetype>rb</filetype>
       <usage_type>resource</usage_type>
       <checksum>F1FB3610</checksum>
+    </file>
+    <file>
+      <filename>os_lib_helper_methods.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>9CFC43FB</checksum>
+    </file>
+    <file>
+      <filename>os_lib_lighting_and_equipment.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>E63C7739</checksum>
+    </file>
+    <file>
+      <filename>os_lib_schedules.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>resource</usage_type>
+      <checksum>5F1CEF3A</checksum>
+    </file>
+    <file>
+      <filename>AedgSmallToMediumOfficeInteriorLighting_Test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>CC5312DB</checksum>
+    </file>
+    <file>
+      <filename>BasicOfficeWithOnePlenumFloor/project.log</filename>
+      <filetype>log</filetype>
+      <usage_type>test</usage_type>
+      <checksum>13E422D3</checksum>
+    </file>
+    <file>
+      <filename>BasicOfficeWithOnePlenumFloor/project.osp</filename>
+      <filetype>osp</filetype>
+      <usage_type>test</usage_type>
+      <checksum>78008FA1</checksum>
+    </file>
+    <file>
+      <filename>BasicOfficeWithOnePlenumFloor/run.db</filename>
+      <filetype>db</filetype>
+      <usage_type>test</usage_type>
+      <checksum>F168C0D7</checksum>
+    </file>
+    <file>
+      <filename>BasicOfficeWithOnePlenumFloor.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>B8BD0491</checksum>
     </file>
   </files>
 </measure>

@@ -2,7 +2,7 @@
 
 ###### (Automatically generated documentation)
 
-# AedgSmallToMediumOfficeExteriorDoorConstruction
+# 
 
 ## Description
 
@@ -19,14 +19,8 @@ ModelMeasure
 ## Arguments
 
 
-### Increase Cost per Area of Construction Where Insulation was Improved ($/ft^2).
-
-**Name:** material_cost_insulation_increase_ip,
-**Type:** Double,
-**Units:** ,
-**Required:** true,
-**Model Dependent:** false
 
 
+This measure does not have any user arguments
 
 

@@ -2,7 +2,7 @@
 
 ###### (Automatically generated documentation)
 
-# AedgSmallToMediumOfficeInteriorLightingControls
+# 
 
 ## Description
 
@@ -19,14 +19,8 @@ ModelMeasure
 ## Arguments
 
 
-### Total cost for all Lighting Controls in the Building ($).
-
-**Name:** costTotal,
-**Type:** Double,
-**Units:** ,
-**Required:** true,
-**Model Dependent:** false
 
 
+This measure does not have any user arguments
 
 

@@ -2,7 +2,7 @@
 
 ###### (Automatically generated documentation)
 
-# AedgOfficeSwh
+# 
 
 ## Description
 
@@ -19,22 +19,8 @@ ModelMeasure
 ## Arguments
 
 
-### Total Cost for SWH System ($).
-
-**Name:** costTotalSwhSystem,
-**Type:** Double,
-**Units:** ,
-**Required:** true,
-**Model Dependent:** false
-
-### Total Number of Employees.
-
-**Name:** numberOfEmployees,
-**Type:** Integer,
-**Units:** ,
-**Required:** true,
-**Model Dependent:** false
 
 
+This measure does not have any user arguments
 
 
