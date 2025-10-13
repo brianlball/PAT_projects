@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<measure>
+  <schema_version>3.1</schema_version>
+  <name>remove_daylighting</name>
+  <uid>46ef65d6-4de0-43ac-ace8-b14baccb8970</uid>
+  <version_id>3fbdf21e-cfde-4e8d-a579-c511d4c451d0</version_id>
+  <version_modified>2025-10-13T21:19:04Z</version_modified>
+  <xml_checksum>2BFBBD1B</xml_checksum>
+  <class_name>RemoveDaylighting</class_name>
+  <display_name>remove daylighting</display_name>
+  <description>remove daylighting sensors from thermalzones</description>
+  <modeler_description>remove daylighting sensors from thermalzones</modeler_description>
+  <arguments />
+  <outputs />
+  <provenances />
+  <tags>
+    <tag>Electric Lighting.Electric Lighting Controls</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Type</name>
+      <value>ModelMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Measure Language</name>
+      <value>Ruby</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Apply Measure Now</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>CD7F5672</checksum>
+    </file>
+    <file>
+      <filename>README.md</filename>
+      <filetype>md</filetype>
+      <usage_type>readme</usage_type>
+      <checksum>5A6A499C</checksum>
+    </file>
+    <file>
+      <filename>README.md.erb</filename>
+      <filetype>erb</filetype>
+      <usage_type>readmeerb</usage_type>
+      <checksum>F1C26127</checksum>
+    </file>
+    <file>
+      <filename>.gitkeep</filename>
+      <filetype>gitkeep</filetype>
+      <usage_type>doc</usage_type>
+      <checksum>00000000</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>3.9.0</identifier>
+        <min_compatible>3.9.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>24AA54E4</checksum>
+    </file>
+    <file>
+      <filename>example_model.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>D6BD40D0</checksum>
+    </file>
+    <file>
+      <filename>remove_daylighting_test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>C776DE97</checksum>
+    </file>
+  </files>
+</measure>

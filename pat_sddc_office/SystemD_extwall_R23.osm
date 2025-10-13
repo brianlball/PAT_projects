@@ -15056,10 +15056,12 @@ OS:StandardsInformation:Construction,
 
 OS:Construction,
   {f21e6698-d226-4074-a2c3-0a9d5e570d20}, !- Handle
-  Typical Interior Wall,                  !- Name
+  Sound Proof Wall,                       !- Name
   {e3cfefce-f921-4ccf-903c-d16afac9fba4}, !- Surface Rendering Name
-  {4cfe961a-6a99-40ea-8571-67305c77c105}, !- Layer 1
-  {4cfe961a-6a99-40ea-8571-67305c77c105}; !- Layer 2
+  {f2de91b5-4418-4234-b39e-63230eb5d066}, !- Layer 1
+  {f2de91b5-4418-4234-b39e-63230eb5d066}, !- Layer 2
+  {b3e2c4e8-6bb0-4bdf-a5e5-8b784cd1b2c1}, !- Layer 3
+  {f2de91b5-4418-4234-b39e-63230eb5d066}; !- Layer 4
 
 OS:StandardsInformation:Construction,
   {44e4cdbe-5613-4651-9848-b0c1b796964f}, !- Handle
@@ -42487,4 +42489,48 @@ OS:Material,
 OS:StandardsInformation:Material,
   {a15dc45f-f012-4e4e-a1a0-bef184069a2a}, !- Handle
   {70108fad-394f-464b-892f-926545afd642}; !- Material Name
+
+OS:Rendering:Color,
+  {1bd43b49-f8ce-4e0e-a2f5-344dcbd76c31}, !- Handle
+  Rendering Color 194,                    !- Name
+  128,                                    !- Rendering Red Value
+  128,                                    !- Rendering Green Value
+  0;                                      !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {f29789ac-335e-472a-a9fc-bb8800dd556f}, !- Handle
+  Rendering Color 195,                    !- Name
+  255,                                    !- Rendering Red Value
+  147,                                    !- Rendering Green Value
+  20;                                     !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {989c895d-6ca5-43e8-994e-f961c58feb9a}, !- Handle
+  Rendering Color 196,                    !- Name
+  250,                                    !- Rendering Red Value
+  215,                                    !- Rendering Green Value
+  235;                                    !- Rendering Blue Value
+
+OS:Rendering:Color,
+  {ffd21cac-5f07-4031-bb28-2aa58fd8accb}, !- Handle
+  Rendering Color 197,                    !- Name
+  255,                                    !- Rendering Red Value
+  203,                                    !- Rendering Green Value
+  192;                                    !- Rendering Blue Value
+
+OS:Material,
+  {b3e2c4e8-6bb0-4bdf-a5e5-8b784cd1b2c1}, !- Handle
+  Mineral Wool acoustic,                  !- Name
+  MediumRough,                            !- Roughness
+  0.09,                                   !- Thickness {m}
+  0.04,                                   !- Conductivity {W/m-K}
+  96,                                     !- Density {kg/m3}
+  800,                                    !- Specific Heat {J/kg-K}
+  0.9,                                    !- Thermal Absorptance
+  0.7,                                    !- Solar Absorptance
+  0.7;                                    !- Visible Absorptance
+
+OS:StandardsInformation:Material,
+  {fb8e5a25-2144-407a-8fbf-663842b2ebf8}, !- Handle
+  {b3e2c4e8-6bb0-4bdf-a5e5-8b784cd1b2c1}; !- Material Name
 
