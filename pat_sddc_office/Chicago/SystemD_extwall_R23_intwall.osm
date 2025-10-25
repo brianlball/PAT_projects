@@ -3696,7 +3696,7 @@ OS:SimulationControl,
   Yes,                                    !- Do Zone Sizing Calculation
   Yes,                                    !- Do System Sizing Calculation
   Yes,                                    !- Do Plant Sizing Calculation
-  No,                                     !- Run Simulation for Sizing Periods
+  Yes,                                    !- Run Simulation for Sizing Periods
   Yes,                                    !- Run Simulation for Weather File Run Periods
   ,                                       !- Loads Convergence Tolerance Value {W}
   ,                                       !- Temperature Convergence Tolerance Value {deltaC}
@@ -6728,7 +6728,9 @@ OS:ProgramControl,
   {577cdc95-e1c3-497a-8d24-c36a418c8057}; !- Handle
 
 OS:OutputControl:ReportingTolerances,
-  {59c8b3c1-6e25-4627-a76d-5cf520c4d05a}; !- Handle
+  {59c8b3c1-6e25-4627-a76d-5cf520c4d05a}, !- Handle
+  0.5,                                    !- Tolerance for Time Heating Setpoint Not Met {deltaC}
+  0.5;                                    !- Tolerance for Time Cooling Setpoint Not Met {deltaC}
 
 OS:ConvergenceLimits,
   {02b0871e-7946-441e-a67d-703d94a68086}, !- Handle
@@ -15610,7 +15612,7 @@ OS:StandardsInformation:Construction,
   {2419f32f-46e5-4aa7-a7b1-ff1ae4b263dd}, !- Handle
   {33984f8d-7c4f-4c39-94b8-4980fe82aa4d}, !- Construction Name
   ExteriorWall,                           !- Intended Surface Type
-  SteelFramed;                            !- Standards Construction Type
+  Mass;                                   !- Standards Construction Type
 
 OS:StandardsInformation:Material,
   {64a07544-025d-4a95-a9c1-b6e7c610f652}, !- Handle
@@ -42533,4 +42535,17 @@ OS:Material,
 OS:StandardsInformation:Material,
   {fb8e5a25-2144-407a-8fbf-663842b2ebf8}, !- Handle
   {b3e2c4e8-6bb0-4bdf-a5e5-8b784cd1b2c1}; !- Material Name
+
+OS:Construction,
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Handle
+  Typical Interior Wall,                  !- Name
+  {e3cfefce-f921-4ccf-903c-d16afac9fba4}, !- Surface Rendering Name
+  {f2de91b5-4418-4234-b39e-63230eb5d066}, !- Layer 1
+  {f2de91b5-4418-4234-b39e-63230eb5d066}; !- Layer 2
+
+OS:StandardsInformation:Construction,
+  {e7a6c02b-6341-48e9-9904-a75cb8cda3fe}, !- Handle
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
+  InteriorWall,                           !- Intended Surface Type
+  ;                                       !- Standards Construction Type
 
