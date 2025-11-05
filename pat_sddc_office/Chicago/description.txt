@@ -15,3 +15,4 @@ _extwall_R23_intwall_infil
 _extwall_R23_intwall_infil_dl
     apply RemoveDaylightingSpace measure to remove daylighting shelves from SCIF spaces (Electric Lighting Controls)
     apply RemoveShadingsurface meaure to remove external shading surfaces from SCIF windows
+    apply RemoveSubsurfacesByName (RemoveSubsurfacesByName) to remove daylight windows 
