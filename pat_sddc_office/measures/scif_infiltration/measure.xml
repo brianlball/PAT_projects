@@ -3,8 +3,8 @@
   <schema_version>3.1</schema_version>
   <name>scif_infiltration</name>
   <uid>0414ea2b-c13e-4c52-934f-c48511977b41</uid>
-  <version_id>7ed3343b-efe6-4a9a-803e-e158b4107e2a</version_id>
-  <version_modified>2025-10-15T22:17:54Z</version_modified>
+  <version_id>d8f21ea6-deb2-4d7b-a9ed-f1603831a1b7</version_id>
+  <version_modified>2025-11-05T19:50:09Z</version_modified>
   <xml_checksum>F732B557</xml_checksum>
   <class_name>ScifInfiltration</class_name>
   <display_name>scif infiltration</display_name>
@@ -95,7 +95,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>8FD0F583</checksum>
+      <checksum>F674EF57</checksum>
     </file>
     <file>
       <filename>example_model.osm</filename>
