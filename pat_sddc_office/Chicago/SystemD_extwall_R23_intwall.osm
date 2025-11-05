@@ -10512,7 +10512,7 @@ OS:Surface,
   {85cdf499-ef1c-4f6a-b576-a63a441fb943}, !- Handle
   Face 390,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c0a4ac94-13b9-470d-b57a-d32c8707cdd6}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {c04daf48-1533-48cd-ba3e-307999c463b3}, !- Outside Boundary Condition Object
@@ -10529,7 +10529,7 @@ OS:Surface,
   {e770ccf2-6226-4af5-89eb-adafaafa5873}, !- Handle
   Face 391,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c0a4ac94-13b9-470d-b57a-d32c8707cdd6}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {9b02cede-5f2d-4470-9bd5-e4377cd883a3}, !- Outside Boundary Condition Object
@@ -10597,7 +10597,7 @@ OS:Surface,
   {97c4f6a1-1653-418f-a438-75da980bc1b6}, !- Handle
   Face 392,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c0a4ac94-13b9-470d-b57a-d32c8707cdd6}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {c7259288-d44e-4276-8e37-15886cf7b9c0}, !- Outside Boundary Condition Object
@@ -10631,7 +10631,7 @@ OS:Surface,
   {5f093440-eee7-4897-8af5-566989916299}, !- Handle
   Face 395,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {9637c770-a58c-46c9-800b-34ebeec48882}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {9685787e-0d92-4b79-8040-ea94049db9a0}, !- Outside Boundary Condition Object
@@ -10648,7 +10648,7 @@ OS:Surface,
   {fb76f49d-92f8-427d-ad98-6b8d9c0be189}, !- Handle
   Face 396,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {9637c770-a58c-46c9-800b-34ebeec48882}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {21ffd0dc-f17f-448b-8811-4c135b1f9405}, !- Outside Boundary Condition Object
@@ -10682,7 +10682,7 @@ OS:Surface,
   {0f469063-44fd-45d5-8e9f-f935ece2d1f8}, !- Handle
   Face 59,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {9637c770-a58c-46c9-800b-34ebeec48882}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {b4c510a7-e2ce-486f-9cf6-15f6ca4fc9c5}, !- Outside Boundary Condition Object
@@ -10699,7 +10699,7 @@ OS:Surface,
   {7635c1ce-77fa-47b9-a78b-d4d5a173aeaa}, !- Handle
   Face 397,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {9637c770-a58c-46c9-800b-34ebeec48882}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {f9d5f52f-e5c8-4957-97d4-c00938bc3143}, !- Outside Boundary Condition Object
@@ -10767,7 +10767,7 @@ OS:Surface,
   {1c3021ed-5866-411b-8585-bb6851d885a1}, !- Handle
   Face 84,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {aa104921-aa29-4737-a457-43f6656b2271}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {4e17c6bf-88f9-488f-86d1-2975ceeeed1c}, !- Outside Boundary Condition Object
@@ -10784,7 +10784,7 @@ OS:Surface,
   {98dfa577-606e-4a6a-bbb9-8da14be7fe5e}, !- Handle
   Face 85,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {aa104921-aa29-4737-a457-43f6656b2271}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {e2903926-f489-470d-964c-1909ccad5200}, !- Outside Boundary Condition Object
@@ -10801,7 +10801,7 @@ OS:Surface,
   {b4c510a7-e2ce-486f-9cf6-15f6ca4fc9c5}, !- Handle
   Face 398,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {aa104921-aa29-4737-a457-43f6656b2271}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {0f469063-44fd-45d5-8e9f-f935ece2d1f8}, !- Outside Boundary Condition Object
@@ -10818,7 +10818,7 @@ OS:Surface,
   {c542f2c6-6ade-4447-9e91-be7d1fd3712e}, !- Handle
   Face 399,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {aa104921-aa29-4737-a457-43f6656b2271}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {ea013c77-6fd9-41f5-acf8-c0e5a049b198}, !- Outside Boundary Condition Object
@@ -10835,7 +10835,7 @@ OS:Surface,
   {9b02cede-5f2d-4470-9bd5-e4377cd883a3}, !- Handle
   Face 400,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {aa104921-aa29-4737-a457-43f6656b2271}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {e770ccf2-6226-4af5-89eb-adafaafa5873}, !- Outside Boundary Condition Object
@@ -10852,7 +10852,7 @@ OS:Surface,
   {ecaa7f30-85bf-41e4-b470-dfc2c1c0ff51}, !- Handle
   Face 401,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {534d6978-7ace-45c2-ba58-8b05462cacdd}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {a577360a-f7ce-45e0-a88b-da9630ec579c}, !- Outside Boundary Condition Object
@@ -10869,7 +10869,7 @@ OS:Surface,
   {7faa17d1-9b54-4d90-a529-fe75d5469c82}, !- Handle
   Face 402,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {534d6978-7ace-45c2-ba58-8b05462cacdd}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {a7f24cb3-39d0-4239-acef-660620bf1fee}, !- Outside Boundary Condition Object
@@ -10886,7 +10886,7 @@ OS:Surface,
   {e2903926-f489-470d-964c-1909ccad5200}, !- Handle
   Face 403,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {534d6978-7ace-45c2-ba58-8b05462cacdd}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {98dfa577-606e-4a6a-bbb9-8da14be7fe5e}, !- Outside Boundary Condition Object
@@ -10937,7 +10937,7 @@ OS:Surface,
   {bcce6f89-6b75-46ee-b510-bc0628dd07bb}, !- Handle
   Face 91,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {534d6978-7ace-45c2-ba58-8b05462cacdd}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {8ebd46d3-16c5-4a8a-845b-f9c1b089e709}, !- Outside Boundary Condition Object
@@ -10954,7 +10954,7 @@ OS:Surface,
   {68c97d0e-03f3-4a90-8204-71c699af60d8}, !- Handle
   Face 92,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {534d6978-7ace-45c2-ba58-8b05462cacdd}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {43327b57-8f17-44b0-9f38-d089fe6eeb27}, !- Outside Boundary Condition Object
@@ -10988,7 +10988,7 @@ OS:Surface,
   {99dabff5-e216-49b5-93f0-dd5985a3e7c8}, !- Handle
   Face 100,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {9267074a-442d-4b17-badb-6808d29f5bab}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {b2f1bc66-8e94-4e26-8d2a-5ffeeb41b335}, !- Outside Boundary Condition Object
@@ -11005,7 +11005,7 @@ OS:Surface,
   {0ac8a667-e5ba-4b2d-9934-d3415e9ec476}, !- Handle
   Face 404,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {9267074a-442d-4b17-badb-6808d29f5bab}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {d678f392-79d9-4583-8f38-4bae15bbe861}, !- Outside Boundary Condition Object
@@ -11022,7 +11022,7 @@ OS:Surface,
   {a745a099-a3f2-4c93-865f-3deda391e821}, !- Handle
   Face 405,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {9267074a-442d-4b17-badb-6808d29f5bab}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {ac9acda3-14fa-42e1-8efb-9e23af563268}, !- Outside Boundary Condition Object
@@ -11039,7 +11039,7 @@ OS:Surface,
   {43327b57-8f17-44b0-9f38-d089fe6eeb27}, !- Handle
   Face 406,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {9267074a-442d-4b17-badb-6808d29f5bab}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {68c97d0e-03f3-4a90-8204-71c699af60d8}, !- Outside Boundary Condition Object
@@ -11090,7 +11090,7 @@ OS:Surface,
   {3acf15e6-ea5c-43de-ace0-edc00c36bea4}, !- Handle
   Face 98,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {9267074a-442d-4b17-badb-6808d29f5bab}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {4038f8ec-d168-438f-be72-d4f18dd9a177}, !- Outside Boundary Condition Object
@@ -11804,7 +11804,7 @@ OS:Surface,
   {f9d5f52f-e5c8-4957-97d4-c00938bc3143}, !- Handle
   Face 430,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {0b497ed6-a0f6-4584-9348-aee025926331}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {7635c1ce-77fa-47b9-a78b-d4d5a173aeaa}, !- Outside Boundary Condition Object
@@ -11855,7 +11855,7 @@ OS:Surface,
   {a7f24cb3-39d0-4239-acef-660620bf1fee}, !- Handle
   Face 65,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {0b497ed6-a0f6-4584-9348-aee025926331}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {7faa17d1-9b54-4d90-a529-fe75d5469c82}, !- Outside Boundary Condition Object
@@ -11872,7 +11872,7 @@ OS:Surface,
   {69ebcf2c-0dc9-4761-8d87-4f577a4f3d4b}, !- Handle
   Face 431,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {0b497ed6-a0f6-4584-9348-aee025926331}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {e5610d07-0547-453f-bea3-34a9e09b4318}, !- Outside Boundary Condition Object
@@ -11889,7 +11889,7 @@ OS:Surface,
   {dcfc9833-0c0f-45a7-bd58-caf6c2dd699c}, !- Handle
   Face 432,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {0b497ed6-a0f6-4584-9348-aee025926331}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {f7be20a6-6c42-4f3d-8d52-f85492089047}, !- Outside Boundary Condition Object
@@ -12059,7 +12059,7 @@ OS:Surface,
   {ea60167c-fb2a-4e20-9818-8ed69551f55d}, !- Handle
   Face 29,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {4570e2a8-0b12-4e25-b3a7-b32016786e6d}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {19c0b2c3-ad30-46b1-a94b-c158f8e58eca}, !- Outside Boundary Condition Object
@@ -12076,7 +12076,7 @@ OS:Surface,
   {1104f73b-165a-4720-9988-0c1c1351eba6}, !- Handle
   Face 433,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {4570e2a8-0b12-4e25-b3a7-b32016786e6d}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {4d2502aa-d71d-4b6b-b0a9-576ff93a94b3}, !- Outside Boundary Condition Object
@@ -12093,7 +12093,7 @@ OS:Surface,
   {08ab4dff-795a-43f1-bcf2-b33357c7d908}, !- Handle
   Face 434,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {4570e2a8-0b12-4e25-b3a7-b32016786e6d}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {a4b96f7c-dff5-43b2-ac07-f87e5674e643}, !- Outside Boundary Condition Object
@@ -12110,7 +12110,7 @@ OS:Surface,
   {2a3669a8-eceb-4988-860f-12f12475dc7d}, !- Handle
   Face 435,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {4570e2a8-0b12-4e25-b3a7-b32016786e6d}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {cada5d67-34d3-4598-bb9c-5921c4188e72}, !- Outside Boundary Condition Object
@@ -12297,7 +12297,7 @@ OS:Surface,
   {3e2f6afb-5023-4962-956c-a2e36566a667}, !- Handle
   Face 51,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {a32edae4-9846-4431-a025-fb730b30a40c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {ed0b5bee-8bbb-4e59-90f8-a0925179639f}, !- Outside Boundary Condition Object
@@ -12348,7 +12348,7 @@ OS:Surface,
   {9685787e-0d92-4b79-8040-ea94049db9a0}, !- Handle
   Face 48,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {a32edae4-9846-4431-a025-fb730b30a40c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {5f093440-eee7-4897-8af5-566989916299}, !- Outside Boundary Condition Object
@@ -12365,7 +12365,7 @@ OS:Surface,
   {f7be20a6-6c42-4f3d-8d52-f85492089047}, !- Handle
   Face 49,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {a32edae4-9846-4431-a025-fb730b30a40c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {dcfc9833-0c0f-45a7-bd58-caf6c2dd699c}, !- Outside Boundary Condition Object
@@ -12382,7 +12382,7 @@ OS:Surface,
   {31a096df-3693-4ff2-bd57-9b980c4cc479}, !- Handle
   Face 50,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {a32edae4-9846-4431-a025-fb730b30a40c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {bc51b42c-6ec0-4278-9eda-bc745527f185}, !- Outside Boundary Condition Object
@@ -12399,7 +12399,7 @@ OS:Surface,
   {eca7815c-0b48-4a66-b919-2bedeea09ff2}, !- Handle
   Face 52,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {a32edae4-9846-4431-a025-fb730b30a40c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {0db49a4a-fde0-4088-a44a-565620b731f5}, !- Outside Boundary Condition Object
@@ -12416,7 +12416,7 @@ OS:Surface,
   {2adc5691-d683-4e9f-be5b-4f69fa521571}, !- Handle
   Face 53,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {a32edae4-9846-4431-a025-fb730b30a40c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {c3ebd459-07da-4067-9ab0-ee39474ce88b}, !- Outside Boundary Condition Object
@@ -12433,7 +12433,7 @@ OS:Surface,
   {b2ed2fb2-42e8-42ea-bd9f-5c317ba585b5}, !- Handle
   Face 54,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {a32edae4-9846-4431-a025-fb730b30a40c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {2d830e86-6b29-4258-9258-068361eccdc9}, !- Outside Boundary Condition Object
@@ -12450,7 +12450,7 @@ OS:Surface,
   {19c0b2c3-ad30-46b1-a94b-c158f8e58eca}, !- Handle
   Face 55,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {a32edae4-9846-4431-a025-fb730b30a40c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {ea60167c-fb2a-4e20-9818-8ed69551f55d}, !- Outside Boundary Condition Object
@@ -12467,7 +12467,7 @@ OS:Surface,
   {ba91046f-5d6f-4585-b8af-0062b1208a69}, !- Handle
   Face 56,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {a32edae4-9846-4431-a025-fb730b30a40c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {4d303a44-a55a-4e57-9fbd-bdc666ea72a4}, !- Outside Boundary Condition Object
@@ -12943,7 +12943,7 @@ OS:Surface,
   {2d830e86-6b29-4258-9258-068361eccdc9}, !- Handle
   Face 35,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {031f8dcc-87c1-4eff-a889-a5a79788cdc4}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {b2ed2fb2-42e8-42ea-bd9f-5c317ba585b5}, !- Outside Boundary Condition Object
@@ -12960,7 +12960,7 @@ OS:Surface,
   {7eecf7d4-c30e-4fbd-9ad8-65a5389f681d}, !- Handle
   Face 453,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {031f8dcc-87c1-4eff-a889-a5a79788cdc4}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {91978988-7b86-4342-9e09-025995d39e8a}, !- Outside Boundary Condition Object
@@ -12977,7 +12977,7 @@ OS:Surface,
   {a35767ec-cdba-4ccb-9e23-9bf8e1745661}, !- Handle
   Face 454,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {031f8dcc-87c1-4eff-a889-a5a79788cdc4}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {6408f641-dc26-46ad-a187-386a1d9e38ae}, !- Outside Boundary Condition Object
@@ -12994,7 +12994,7 @@ OS:Surface,
   {4d2502aa-d71d-4b6b-b0a9-576ff93a94b3}, !- Handle
   Face 455,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {031f8dcc-87c1-4eff-a889-a5a79788cdc4}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {1104f73b-165a-4720-9988-0c1c1351eba6}, !- Outside Boundary Condition Object
@@ -13215,7 +13215,7 @@ OS:Surface,
   {4038f8ec-d168-438f-be72-d4f18dd9a177}, !- Handle
   Face 110,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {fffe3ee9-bf2e-4892-92bb-4075d988c269}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {3acf15e6-ea5c-43de-ace0-edc00c36bea4}, !- Outside Boundary Condition Object
@@ -13232,7 +13232,7 @@ OS:Surface,
   {8ebd46d3-16c5-4a8a-845b-f9c1b089e709}, !- Handle
   Face 456,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {fffe3ee9-bf2e-4892-92bb-4075d988c269}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {bcce6f89-6b75-46ee-b510-bc0628dd07bb}, !- Outside Boundary Condition Object
@@ -13249,7 +13249,7 @@ OS:Surface,
   {4e17c6bf-88f9-488f-86d1-2975ceeeed1c}, !- Handle
   Face 457,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {fffe3ee9-bf2e-4892-92bb-4075d988c269}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {1c3021ed-5866-411b-8585-bb6851d885a1}, !- Outside Boundary Condition Object
@@ -13266,7 +13266,7 @@ OS:Surface,
   {c04daf48-1533-48cd-ba3e-307999c463b3}, !- Handle
   Face 458,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {fffe3ee9-bf2e-4892-92bb-4075d988c269}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {85cdf499-ef1c-4f6a-b576-a63a441fb943}, !- Outside Boundary Condition Object
@@ -13283,7 +13283,7 @@ OS:Surface,
   {867871a9-8505-43f5-b4c0-029edbc938ed}, !- Handle
   Face 81,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c594dd76-19e1-4e01-a2cd-2419f2c5bf6a}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {5c433a62-ab2b-426b-96b5-5572e358760a}, !- Outside Boundary Condition Object
@@ -13300,7 +13300,7 @@ OS:Surface,
   {dfd5a824-b40d-45c6-ab49-6dc24c3e8c36}, !- Handle
   Face 79,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c594dd76-19e1-4e01-a2cd-2419f2c5bf6a}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {24210f1f-0a4b-42e3-987f-444de0cc8340}, !- Outside Boundary Condition Object
@@ -13317,7 +13317,7 @@ OS:Surface,
   {ed0b5bee-8bbb-4e59-90f8-a0925179639f}, !- Handle
   Face 80,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c594dd76-19e1-4e01-a2cd-2419f2c5bf6a}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {3e2f6afb-5023-4962-956c-a2e36566a667}, !- Outside Boundary Condition Object
@@ -13368,7 +13368,7 @@ OS:Surface,
   {d678f392-79d9-4583-8f38-4bae15bbe861}, !- Handle
   Face 78,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c594dd76-19e1-4e01-a2cd-2419f2c5bf6a}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {0ac8a667-e5ba-4b2d-9934-d3415e9ec476}, !- Outside Boundary Condition Object
@@ -13759,7 +13759,7 @@ OS:Surface,
   {0873a10e-e938-465e-be0a-69cbeac83fbb}, !- Handle
   Face 168,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c91f98e9-ad72-443c-be6f-70ba58cc1afe}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {b1758f34-b51f-481c-a2c3-02ad448e7bf4}, !- Outside Boundary Condition Object
@@ -13776,7 +13776,7 @@ OS:Surface,
   {bfdc2978-deb1-4ff3-afaa-e68a027a9b9f}, !- Handle
   Face 169,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c91f98e9-ad72-443c-be6f-70ba58cc1afe}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {8f40f7a9-8694-4eba-ab83-a203b8484360}, !- Outside Boundary Condition Object
@@ -13793,7 +13793,7 @@ OS:Surface,
   {0db49a4a-fde0-4088-a44a-565620b731f5}, !- Handle
   Face 170,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c91f98e9-ad72-443c-be6f-70ba58cc1afe}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {eca7815c-0b48-4a66-b919-2bedeea09ff2}, !- Outside Boundary Condition Object
@@ -13810,7 +13810,7 @@ OS:Surface,
   {24210f1f-0a4b-42e3-987f-444de0cc8340}, !- Handle
   Face 171,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c91f98e9-ad72-443c-be6f-70ba58cc1afe}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {dfd5a824-b40d-45c6-ab49-6dc24c3e8c36}, !- Outside Boundary Condition Object
@@ -13827,7 +13827,7 @@ OS:Surface,
   {b2f1bc66-8e94-4e26-8d2a-5ffeeb41b335}, !- Handle
   Face 172,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {c91f98e9-ad72-443c-be6f-70ba58cc1afe}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {99dabff5-e216-49b5-93f0-dd5985a3e7c8}, !- Outside Boundary Condition Object
@@ -14099,7 +14099,7 @@ OS:Surface,
   {566cc69d-965c-41f5-aaf4-0fe60c66bae8}, !- Handle
   Face 14,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {f429e9d4-fb92-47dd-93ae-7c08c0e42e0d}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {3ad8b300-ce8d-446c-9914-d4ab2289d099}, !- Outside Boundary Condition Object
@@ -14116,7 +14116,7 @@ OS:Surface,
   {65022859-9ac7-4c67-8112-328924ff50e3}, !- Handle
   Face 15,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {f429e9d4-fb92-47dd-93ae-7c08c0e42e0d}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {ac0b4d86-c155-44a6-9198-44de3c05e0e7}, !- Outside Boundary Condition Object
@@ -14184,7 +14184,7 @@ OS:Surface,
   {3c8a9086-b8f5-47ce-9e46-f7115c79814e}, !- Handle
   Face 11,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {f429e9d4-fb92-47dd-93ae-7c08c0e42e0d}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {d3c0d63b-9366-4298-8711-820f9a066ed4}, !- Outside Boundary Condition Object
@@ -14201,7 +14201,7 @@ OS:Surface,
   {a4b96f7c-dff5-43b2-ac07-f87e5674e643}, !- Handle
   Face 12,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {f429e9d4-fb92-47dd-93ae-7c08c0e42e0d}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {08ab4dff-795a-43f1-bcf2-b33357c7d908}, !- Outside Boundary Condition Object
@@ -14218,7 +14218,7 @@ OS:Surface,
   {6408f641-dc26-46ad-a187-386a1d9e38ae}, !- Handle
   Face 13,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {f429e9d4-fb92-47dd-93ae-7c08c0e42e0d}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {a35767ec-cdba-4ccb-9e23-9bf8e1745661}, !- Outside Boundary Condition Object
@@ -14269,7 +14269,7 @@ OS:Surface,
   {ac0b4d86-c155-44a6-9198-44de3c05e0e7}, !- Handle
   Face 161,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {036193d5-42b2-49a1-b974-3b47908b11df}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {65022859-9ac7-4c67-8112-328924ff50e3}, !- Outside Boundary Condition Object
@@ -14286,7 +14286,7 @@ OS:Surface,
   {9831e99f-04a5-4293-bb2e-a88ed18d037d}, !- Handle
   Face 162,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {036193d5-42b2-49a1-b974-3b47908b11df}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {4492c7f4-33df-48a8-9f38-d48e9f8617a9}, !- Outside Boundary Condition Object
@@ -14303,7 +14303,7 @@ OS:Surface,
   {b1758f34-b51f-481c-a2c3-02ad448e7bf4}, !- Handle
   Face 163,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {036193d5-42b2-49a1-b974-3b47908b11df}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {0873a10e-e938-465e-be0a-69cbeac83fbb}, !- Outside Boundary Condition Object
@@ -14371,7 +14371,7 @@ OS:Surface,
   {c3ebd459-07da-4067-9ab0-ee39474ce88b}, !- Handle
   Face 41,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {2c17eca0-a327-46b0-ab53-620a5cc4fb5c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {2adc5691-d683-4e9f-be5b-4f69fa521571}, !- Outside Boundary Condition Object
@@ -14388,7 +14388,7 @@ OS:Surface,
   {8f40f7a9-8694-4eba-ab83-a203b8484360}, !- Handle
   Face 42,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {2c17eca0-a327-46b0-ab53-620a5cc4fb5c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {bfdc2978-deb1-4ff3-afaa-e68a027a9b9f}, !- Outside Boundary Condition Object
@@ -14405,7 +14405,7 @@ OS:Surface,
   {4492c7f4-33df-48a8-9f38-d48e9f8617a9}, !- Handle
   Face 43,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {2c17eca0-a327-46b0-ab53-620a5cc4fb5c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {9831e99f-04a5-4293-bb2e-a88ed18d037d}, !- Outside Boundary Condition Object
@@ -14422,7 +14422,7 @@ OS:Surface,
   {3ad8b300-ce8d-446c-9914-d4ab2289d099}, !- Handle
   Face 44,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {2c17eca0-a327-46b0-ab53-620a5cc4fb5c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {566cc69d-965c-41f5-aaf4-0fe60c66bae8}, !- Outside Boundary Condition Object
@@ -14439,7 +14439,7 @@ OS:Surface,
   {91978988-7b86-4342-9e09-025995d39e8a}, !- Handle
   Face 45,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {2c17eca0-a327-46b0-ab53-620a5cc4fb5c}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {7eecf7d4-c30e-4fbd-9ad8-65a5389f681d}, !- Outside Boundary Condition Object
@@ -14694,7 +14694,7 @@ OS:Surface,
   {21ffd0dc-f17f-448b-8811-4c135b1f9405}, !- Handle
   Face 116,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {edd0438b-540a-42cb-a031-4b36d000f6be}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {fb76f49d-92f8-427d-ad98-6b8d9c0be189}, !- Outside Boundary Condition Object
@@ -14711,7 +14711,7 @@ OS:Surface,
   {4d303a44-a55a-4e57-9fbd-bdc666ea72a4}, !- Handle
   Face 117,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {edd0438b-540a-42cb-a031-4b36d000f6be}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {ba91046f-5d6f-4585-b8af-0062b1208a69}, !- Outside Boundary Condition Object
@@ -14728,7 +14728,7 @@ OS:Surface,
   {cada5d67-34d3-4598-bb9c-5921c4188e72}, !- Handle
   Face 118,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {edd0438b-540a-42cb-a031-4b36d000f6be}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {2a3669a8-eceb-4988-860f-12f12475dc7d}, !- Outside Boundary Condition Object
@@ -14745,7 +14745,7 @@ OS:Surface,
   {d3c0d63b-9366-4298-8711-820f9a066ed4}, !- Handle
   Face 119,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {edd0438b-540a-42cb-a031-4b36d000f6be}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {3c8a9086-b8f5-47ce-9e46-f7115c79814e}, !- Outside Boundary Condition Object
@@ -14779,7 +14779,7 @@ OS:Surface,
   {c7259288-d44e-4276-8e37-15886cf7b9c0}, !- Handle
   Face 122,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {edd0438b-540a-42cb-a031-4b36d000f6be}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {97c4f6a1-1653-418f-a438-75da980bc1b6}, !- Outside Boundary Condition Object
@@ -14796,7 +14796,7 @@ OS:Surface,
   {ea013c77-6fd9-41f5-acf8-c0e5a049b198}, !- Handle
   Face 123,                               !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {edd0438b-540a-42cb-a031-4b36d000f6be}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {c542f2c6-6ade-4447-9e91-be7d1fd3712e}, !- Outside Boundary Condition Object
@@ -14847,7 +14847,7 @@ OS:Surface,
   {a577360a-f7ce-45e0-a88b-da9630ec579c}, !- Handle
   Face 71,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {d49d5d74-fbd8-4cb6-aeb8-bc26645cb823}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {ecaa7f30-85bf-41e4-b470-dfc2c1c0ff51}, !- Outside Boundary Condition Object
@@ -14864,7 +14864,7 @@ OS:Surface,
   {ac9acda3-14fa-42e1-8efb-9e23af563268}, !- Handle
   Face 72,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {d49d5d74-fbd8-4cb6-aeb8-bc26645cb823}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {a745a099-a3f2-4c93-865f-3deda391e821}, !- Outside Boundary Condition Object
@@ -14881,7 +14881,7 @@ OS:Surface,
   {5c433a62-ab2b-426b-96b5-5572e358760a}, !- Handle
   Face 73,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {d49d5d74-fbd8-4cb6-aeb8-bc26645cb823}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {867871a9-8505-43f5-b4c0-029edbc938ed}, !- Outside Boundary Condition Object
@@ -14898,7 +14898,7 @@ OS:Surface,
   {bc51b42c-6ec0-4278-9eda-bc745527f185}, !- Handle
   Face 74,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {d49d5d74-fbd8-4cb6-aeb8-bc26645cb823}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {31a096df-3693-4ff2-bd57-9b980c4cc479}, !- Outside Boundary Condition Object
@@ -14915,7 +14915,7 @@ OS:Surface,
   {e5610d07-0547-453f-bea3-34a9e09b4318}, !- Handle
   Face 75,                                !- Name
   Wall,                                   !- Surface Type
-  ,                                       !- Construction Name
+  {168e658f-765c-4e1e-a86a-32d6e7bf7754}, !- Construction Name
   {d49d5d74-fbd8-4cb6-aeb8-bc26645cb823}, !- Space Name
   Surface,                                !- Outside Boundary Condition
   {69ebcf2c-0dc9-4761-8d87-4f577a4f3d4b}, !- Outside Boundary Condition Object
@@ -25223,7 +25223,7 @@ OS:WeatherFile,
   -87.92,                                 !- Longitude {deg}
   -6,                                     !- Time Zone {hr}
   201,                                    !- Elevation {m}
-  USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw, !- Url
+  files/USA_IL_Chicago-OHare.Intl.AP.725300_TMY3.epw, !- Url
   C254B53F,                               !- Checksum
   ,                                       !- Start Date Actual Year
   Sunday;                                 !- Start Day of Week

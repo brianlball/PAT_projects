@@ -1,8 +1,12 @@
 _baseline
-
+    NZE measure for HVAC system
+    
 _extwall_R23
-    change exterior wall to 8in concrete R23 manually
-    change Roof to R40 concrete manually
+    change default construction for exterior wall to 8in concrete R23 manually
+    change default construction for Roof to R40 concrete manually
+    
+_extwall_R23_intwall    
+    change default construction for interior wall to Sound Proof Wall manually
+    apply non_scif_interior_wall measure to change first floor non-SCIF spaces back to Typical Interior Wall
     
     
-
