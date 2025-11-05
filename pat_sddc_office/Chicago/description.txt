@@ -9,4 +9,5 @@ _extwall_R23_intwall
     change default construction for interior wall to Sound Proof Wall manually
     apply non_scif_interior_wall measure to change first floor non-SCIF spaces back to Typical Interior Wall
     
-    
+_extwall_R23_intwall_infil
+    apply scif_infiltration measure to change all spaces to 0.000127 Flow per Exterior Surface Area (m^3/s-m^2)
