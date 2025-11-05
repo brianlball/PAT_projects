@@ -3,8 +3,8 @@
   <schema_version>3.1</schema_version>
   <name>remove_shadingsurface</name>
   <uid>cf5e0a9c-f77d-4660-83d8-8a5fdc1f17c1</uid>
-  <version_id>e5650f7b-31b1-4bb7-b9fb-6187d169ffad</version_id>
-  <version_modified>2025-10-13T20:49:26Z</version_modified>
+  <version_id>ae37fe86-81af-459b-bca6-7784a1592495</version_id>
+  <version_modified>2025-11-05T22:05:14Z</version_modified>
   <xml_checksum>BED8DECF</xml_checksum>
   <class_name>RemoveShadingsurface</class_name>
   <display_name>remove shadingsurface</display_name>
@@ -18,6 +18,7 @@
       <type>String</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
+      <default_value>Space 116, Space 119, Space 120, Space 121, Space 122, Space 123, Space 201, Space 202, Space 203, Space 204, Space 205, Space 206, Space 207, Space 208, Space 209, Space 210, Space 211, Space 212, Space 213, Space 214, Space 215, Space 216, Space 217, Space 218, Space 219, Space 220, Space 221, Space 222, Space 223</default_value>
     </argument>
   </arguments>
   <outputs />
@@ -86,7 +87,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>0E3B08DE</checksum>
+      <checksum>6D36F989</checksum>
     </file>
     <file>
       <filename>example_model.osm</filename>

@@ -25,10 +25,19 @@ class RemoveShadingsurface < OpenStudio::Measure::ModelMeasure
   def arguments(model)
     args = OpenStudio::Measure::OSArgumentVector.new
 
+    default_spaces = [
+      'Space 116', 'Space 119', 'Space 120', 'Space 121', 'Space 122', 'Space 123',      
+      'Space 201', 'Space 202', 'Space 203', 'Space 204', 'Space 205', 'Space 206',
+      'Space 207', 'Space 208', 'Space 209', 'Space 210', 'Space 211', 'Space 212',
+      'Space 213', 'Space 214', 'Space 215', 'Space 216', 'Space 217', 'Space 218',
+      'Space 219', 'Space 220', 'Space 221', 'Space 222', 'Space 223'
+    ]
+    
     # Argument: list of space names (comma-separated string)
     space_names = OpenStudio::Measure::OSArgument.makeStringArgument('space_names', true)
     space_names.setDisplayName('Space names (comma-separated)')
     space_names.setDescription('List of space names whose shading groups should be removed')
+    space_names.setDefaultValue(default_spaces.join(', '))
     args << space_names
 
     return args
