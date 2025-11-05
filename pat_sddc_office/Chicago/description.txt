@@ -1,0 +1,8 @@
+_baseline
+
+_extwall_R23
+    change exterior wall to 8in concrete R23 manually
+    change Roof to R40 concrete manually
+    
+    
+
