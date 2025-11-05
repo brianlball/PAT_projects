@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<measure>
+  <schema_version>3.1</schema_version>
+  <name>set_interior_wall_construction_for_spaces</name>
+  <uid>cd544bdc-cd5a-43c7-9fd6-e926b083b6ca</uid>
+  <version_id>c3865273-e302-4b8a-848c-ea9892405727</version_id>
+  <version_modified>2025-11-05T18:10:13Z</version_modified>
+  <xml_checksum>395872D8</xml_checksum>
+  <class_name>SetInteriorWallConstructionForSpaces</class_name>
+  <display_name>Set Interior Wall Construction for Spaces (Strict)</display_name>
+  <description>Assigns the given Construction (default: 'Typical Interior Wall') to interzone walls between spaces ONLY when both adjacent spaces are in the provided list. Exterior/adiabatic walls are not modified.</description>
+  <modeler_description>Resolves input space names to handles once, then uses handle-string comparison for all matching. For each interzone wall whose two spaces are both targeted, sets the Construction on BOTH mate surfaces.</modeler_description>
+  <arguments>
+    <argument>
+      <name>space_names</name>
+      <display_name>Target Spaces (comma-separated exact names)</display_name>
+      <description>Case-insensitive exact match to Space names. Example: "Space 101, Space 102".</description>
+      <type>String</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>Space 101, Space 102, Space 103, Space 104, Space 105, Space 106, Space 107, Space 108, Space 109, Space 110, Space 111, Space 112, Space 113, Space 114, Space 115, Space 117, Space 118</default_value>
+    </argument>
+    <argument>
+      <name>construction_name</name>
+      <display_name>Construction Name to Apply</display_name>
+      <description>Must exist in the model. Applied only to interzone walls whose adjacent space is also targeted.</description>
+      <type>String</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>Typical Interior Wall</default_value>
+    </argument>
+  </arguments>
+  <outputs />
+  <provenances />
+  <tags>
+    <tag>Envelope.Construction Sets</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Type</name>
+      <value>ModelMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Measure Language</name>
+      <value>Ruby</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Apply Measure Now</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>CD7F5672</checksum>
+    </file>
+    <file>
+      <filename>README.md</filename>
+      <filetype>md</filetype>
+      <usage_type>readme</usage_type>
+      <checksum>CABE74CF</checksum>
+    </file>
+    <file>
+      <filename>README.md.erb</filename>
+      <filetype>erb</filetype>
+      <usage_type>readmeerb</usage_type>
+      <checksum>F1C26127</checksum>
+    </file>
+    <file>
+      <filename>.gitkeep</filename>
+      <filetype>gitkeep</filetype>
+      <usage_type>doc</usage_type>
+      <checksum>00000000</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>3.9.0</identifier>
+        <min_compatible>3.9.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>DC9D44ED</checksum>
+    </file>
+    <file>
+      <filename>example_model.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>D6BD40D0</checksum>
+    </file>
+    <file>
+      <filename>non_scif_interior_wall_test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>7355CE85</checksum>
+    </file>
+  </files>
+</measure>

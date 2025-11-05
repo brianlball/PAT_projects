@@ -3,8 +3,8 @@
   <schema_version>3.1</schema_version>
   <name>nze_hvac</name>
   <uid>f060dff2-b28d-4194-a6af-e66d88ddb33c</uid>
-  <version_id>67395422-5972-4609-b59a-85d280730147</version_id>
-  <version_modified>2025-08-22T15:32:10Z</version_modified>
+  <version_id>b83d19c9-339e-4ae7-8b0f-64a8f98ecddf</version_id>
+  <version_modified>2025-11-04T22:35:57Z</version_modified>
   <xml_checksum>0E5E4776</xml_checksum>
   <class_name>NzeHvac</class_name>
   <display_name>NZEHVAC</display_name>
@@ -258,7 +258,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>7EAD5ED0</checksum>
+      <checksum>98255101</checksum>
     </file>
     <file>
       <filename>NZEHVAC_Test.rb</filename>

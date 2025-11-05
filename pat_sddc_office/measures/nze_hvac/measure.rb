@@ -189,7 +189,7 @@ class NzeHvac < OpenStudio::Measure::ModelMeasure
     # PVAV systems by default use a DX coil for cooling
     when 'PVAV with gas boiler reheat'
       standard.model_add_hvac_system(model, 'PVAV Reheat', ht = 'NaturalGas', znht = 'NaturalGas', cl = 'Electricity', zones,
-                                     hot_water_loop_type: 'LowTemperature')
+                                     hot_water_loop_type: 'HighTemperature')
 
     when 'PVAV with central air source heat pump reheat'
       standard.model_add_hvac_system(model, 'PVAV Reheat', ht = 'AirSourceHeatPump', znht = 'AirSourceHeatPump', cl = 'Electricity', zones)
