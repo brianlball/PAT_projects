@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<measure>
+  <schema_version>3.1</schema_version>
+  <name>scif_low_vlt_windows</name>
+  <uid>36431f54-105b-4285-aace-28a7122228df</uid>
+  <version_id>526f4bb9-b2ad-4683-a8a7-24763db4ac0a</version_id>
+  <version_modified>2025-11-05T23:21:06Z</version_modified>
+  <xml_checksum>EFD70EF1</xml_checksum>
+  <class_name>ScifLowVltWindows</class_name>
+  <display_name>Scif Low Vlt Windows</display_name>
+  <description>For exterior FixedWindows in the given spaces, replace their construction with the LVLT variant (appends LVLT to the current construction name).</description>
+  <modeler_description>For exterior FixedWindows in the given spaces, replace their construction with the LVLT variant (appends LVLT to the current construction name).</modeler_description>
+  <arguments>
+    <argument>
+      <name>space_name</name>
+      <display_name>New space name</display_name>
+      <description>This name will be used as the name of the new space.</description>
+      <type>String</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>Space 116, Space 119, Space 120, Space 121, Space 122, Space 123, Space 201, Space 202, Space 203, Space 204, Space 205, Space 206, Space 207, Space 208, Space 209, Space 210, Space 211, Space 212, Space 213, Space 214, Space 215, Space 216, Space 217, Space 218, Space 219, Space 220, Space 221, Space 222, Space 223</default_value>
+    </argument>
+    <argument>
+      <name>lvlt_suffix</name>
+      <display_name>Suffix to append to construction name</display_name>
+      <description>The LVLT construction is found by &lt;current name&gt; + this suffix.</description>
+      <type>String</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value> LVLT</default_value>
+    </argument>
+  </arguments>
+  <outputs />
+  <provenances />
+  <tags>
+    <tag>Envelope.Fenestration</tag>
+  </tags>
+  <attributes>
+    <attribute>
+      <name>Measure Type</name>
+      <value>ModelMeasure</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Measure Language</name>
+      <value>Ruby</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Apply Measure Now</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>OpenStudio Application</value>
+      <datatype>string</datatype>
+    </attribute>
+    <attribute>
+      <name>Intended Software Tool</name>
+      <value>Parametric Analysis Tool</value>
+      <datatype>string</datatype>
+    </attribute>
+  </attributes>
+  <files>
+    <file>
+      <filename>LICENSE.md</filename>
+      <filetype>md</filetype>
+      <usage_type>license</usage_type>
+      <checksum>CD7F5672</checksum>
+    </file>
+    <file>
+      <filename>README.md</filename>
+      <filetype>md</filetype>
+      <usage_type>readme</usage_type>
+      <checksum>D6DFE79A</checksum>
+    </file>
+    <file>
+      <filename>README.md.erb</filename>
+      <filetype>erb</filetype>
+      <usage_type>readmeerb</usage_type>
+      <checksum>F1C26127</checksum>
+    </file>
+    <file>
+      <filename>.gitkeep</filename>
+      <filetype>gitkeep</filetype>
+      <usage_type>doc</usage_type>
+      <checksum>00000000</checksum>
+    </file>
+    <file>
+      <version>
+        <software_program>OpenStudio</software_program>
+        <identifier>3.9.0</identifier>
+        <min_compatible>3.9.0</min_compatible>
+      </version>
+      <filename>measure.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>script</usage_type>
+      <checksum>264D172C</checksum>
+    </file>
+    <file>
+      <filename>example_model.osm</filename>
+      <filetype>osm</filetype>
+      <usage_type>test</usage_type>
+      <checksum>D6BD40D0</checksum>
+    </file>
+    <file>
+      <filename>scif_low_vlt_windows_test.rb</filename>
+      <filetype>rb</filetype>
+      <usage_type>test</usage_type>
+      <checksum>806E730E</checksum>
+    </file>
+  </files>
+</measure>
