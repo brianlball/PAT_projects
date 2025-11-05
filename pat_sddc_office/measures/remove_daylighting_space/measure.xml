@@ -1,38 +1,30 @@
 <?xml version="1.0"?>
 <measure>
   <schema_version>3.1</schema_version>
-  <name>scif_infiltration</name>
-  <uid>0414ea2b-c13e-4c52-934f-c48511977b41</uid>
-  <version_id>95ce84b4-b6ae-46be-ab76-9dc6840bc849</version_id>
-  <version_modified>2025-11-05T20:45:45Z</version_modified>
-  <xml_checksum>F732B557</xml_checksum>
-  <class_name>ScifInfiltration</class_name>
-  <display_name>scif infiltration</display_name>
-  <description>reduce infiltration to scif levels</description>
-  <modeler_description>reduce infiltration to scif levels</modeler_description>
+  <name>remove_daylighting_space</name>
+  <uid>8d32d973-c2e0-46d2-b00c-65999f27ba43</uid>
+  <version_id>43785072-6967-4c12-9810-a0c131eb835c</version_id>
+  <version_modified>2025-11-05T21:48:25Z</version_modified>
+  <xml_checksum>2BFBBD1B</xml_checksum>
+  <class_name>RemoveDaylightingSpace</class_name>
+  <display_name>remove daylighting by space</display_name>
+  <description>remove daylighting sensors from thermalzones</description>
+  <modeler_description>remove daylighting sensors from thermalzones</modeler_description>
   <arguments>
     <argument>
       <name>space_names</name>
-      <display_name>Target Spaces/SpaceTypes (comma-separated names)</display_name>
-      <description>If blank, all SpaceInfiltration:DesignFlowRate objects will be updated. Otherwise, only those attached to a Space or SpaceType whose name matches (case-insensitive).</description>
+      <display_name>Space names (comma-separated)</display_name>
+      <description>List of space names whose shading groups should be removed</description>
       <type>String</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
-      <default_value></default_value>
-    </argument>
-    <argument>
-      <name>flow_per_ext_area</name>
-      <display_name>Flow per Exterior Surface Area (m^3/s-m^2)</display_name>
-      <type>Double</type>
-      <required>true</required>
-      <model_dependent>false</model_dependent>
-      <default_value>0.000127</default_value>
+      <default_value>Space 116, Space 119, Space 120, Space 121, Space 122, Space 123, Space 201, Space 202, Space 203, Space 204, Space 205, Space 206, Space 207, Space 208, Space 209, Space 210, Space 211, Space 212, Space 213, Space 214, Space 215, Space 216, Space 217, Space 218, Space 219, Space 220, Space 221, Space 222, Space 223</default_value>
     </argument>
   </arguments>
   <outputs />
   <provenances />
   <tags>
-    <tag>Whole Building.Space Types</tag>
+    <tag>Electric Lighting.Electric Lighting Controls</tag>
   </tags>
   <attributes>
     <attribute>
@@ -72,7 +64,7 @@
       <filename>README.md</filename>
       <filetype>md</filetype>
       <usage_type>readme</usage_type>
-      <checksum>8889B1F7</checksum>
+      <checksum>EB557FF4</checksum>
     </file>
     <file>
       <filename>README.md.erb</filename>
@@ -95,7 +87,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>F846C9AE</checksum>
+      <checksum>330E68A2</checksum>
     </file>
     <file>
       <filename>example_model.osm</filename>
@@ -104,10 +96,10 @@
       <checksum>D6BD40D0</checksum>
     </file>
     <file>
-      <filename>scif_infiltration_test.rb</filename>
+      <filename>remove_daylighting_test.rb</filename>
       <filetype>rb</filetype>
       <usage_type>test</usage_type>
-      <checksum>67851D45</checksum>
+      <checksum>C776DE97</checksum>
     </file>
   </files>
 </measure>

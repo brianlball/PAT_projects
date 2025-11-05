@@ -11,3 +11,7 @@ _extwall_R23_intwall
     
 _extwall_R23_intwall_infil
     apply scif_infiltration measure to change all spaces to 0.000127 Flow per Exterior Surface Area (m^3/s-m^2)
+
+_extwall_R23_intwall_infil_dl
+    apply RemoveDaylightingSpace measure to remove daylighting shelves from SCIF spaces (Electric Lighting Controls)
+    apply RemoveShadingsurface meaure to remove external shading surfaces from SCIF windows
