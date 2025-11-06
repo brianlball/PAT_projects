@@ -3,21 +3,40 @@
   <schema_version>3.1</schema_version>
   <name>scif_remove_windows</name>
   <uid>2fd6c7e5-dff9-4629-9ec3-c036c6aa32c7</uid>
-  <version_id>70500f9e-a786-4c29-a2b2-2cc1ab02c212</version_id>
-  <version_modified>2025-10-15T22:48:14Z</version_modified>
+  <version_id>74696473-feb9-4067-acc5-10d2bec351d0</version_id>
+  <version_modified>2025-11-06T15:59:41Z</version_modified>
   <xml_checksum>EFD70EF1</xml_checksum>
   <class_name>ScifRemoveWindows</class_name>
   <display_name>scif remove windows</display_name>
-  <description>remove windows from space list</description>
-  <modeler_description>remove windows from space list</modeler_description>
+  <description>Remove all windows (FixedWindow, OperableWindow) in the given spaces and clean up related objects.</description>
+  <modeler_description>Matches spaces by name (case-insensitive), gathers window SubSurfaces, removes interzone mates, detaches/removes ShadingControls that reference them, and removes DaylightingDeviceShelfs (plus the inside shelf geometry group).</modeler_description>
   <arguments>
     <argument>
       <name>space_names</name>
-      <display_name>Space names (comma-separated)</display_name>
-      <description>List of space names whose shading groups should be removed</description>
+      <display_name>Target spaces (comma or semicolon separated)</display_name>
+      <description>Case-insensitive exact space names, e.g. "Space 101; Space 102, Space 201"</description>
       <type>String</type>
       <required>true</required>
       <model_dependent>false</model_dependent>
+      <default_value>Space 116, Space 122, Space 123</default_value>
+    </argument>
+    <argument>
+      <name>include_skylights</name>
+      <display_name>Also remove Skylights?</display_name>
+      <type>Boolean</type>
+      <required>true</required>
+      <model_dependent>false</model_dependent>
+      <default_value>false</default_value>
+      <choices>
+        <choice>
+          <value>true</value>
+          <display_name>true</display_name>
+        </choice>
+        <choice>
+          <value>false</value>
+          <display_name>false</display_name>
+        </choice>
+      </choices>
     </argument>
   </arguments>
   <outputs />
@@ -63,7 +82,7 @@
       <filename>README.md</filename>
       <filetype>md</filetype>
       <usage_type>readme</usage_type>
-      <checksum>4BF9504B</checksum>
+      <checksum>80F6FC25</checksum>
     </file>
     <file>
       <filename>README.md.erb</filename>
@@ -86,7 +105,7 @@
       <filename>measure.rb</filename>
       <filetype>rb</filetype>
       <usage_type>script</usage_type>
-      <checksum>D1DE328C</checksum>
+      <checksum>652EB5E5</checksum>
     </file>
     <file>
       <filename>example_model.osm</filename>

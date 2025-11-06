@@ -17,7 +17,7 @@ _extwall_R23_intwall_infil_dlc
     apply RemoveShadingsurface meaure to remove external shading surfaces from SCIF windows
  
 _extwall_R23_intwall_infil_dlc_dlw 
-    apply RemoveSubsurfacesByName (RemoveSubsurfacesByName) to remove daylight windows
+    apply RemoveSubsurfacesByName (RemoveSubsurfacesByName in folder remove_daylighting_windows) to remove daylight windows
 
 _extwall_R23_intwall_infil_dlc_dlw_vlt
     manually make Simple Glazing System Window Materials: AEDG-SmMdOff View Glazing North-mat LVLT, AEDG-SmMdOff View Glazing South-mat LVTL, AEDG-SmMdOff View Glazing EastWest-mat LVTL
@@ -26,3 +26,6 @@ _extwall_R23_intwall_infil_dlc_dlw_vlt
     
 _extwall_R23_intwall_infil_dlc_dlw_vlt_fan
     apply FanPressureRise measure w 2inH2O; no exhaust fan increase for DOAS
+    
+_extwall_R23_intwall_infil_dlc_dlw_vlt_fan_1flw    
+    apply measure ScifRemoveWindows to remove windows and shading control from 1st floor SCIF spaces.

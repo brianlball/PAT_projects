@@ -1,0 +1,10 @@
+Run,Heating,Interior Equipment,Water Systems,Interior Lighting,Cooling,Fans,Exterior Lighting,Heat Recovery,Pumps
+AEDG Baseline,17.4735,7.0129,2.9823,2.8283,4.1609,1.226,1.7743,0.0,0.00805
+Concrete Envelope,16.1617,7.0129,2.9823,2.8283,3.6581,1.0639,1.7743,0.0,0.00665
+Interior Sound Proofing,16.3503,7.0129,2.9823,2.8283,3.7145,1.07245,1.7743,0.0,0.00665
+Tighter Infilration,13.6187,7.0129,2.9823,2.8283,3.6979,1.04545,1.7743,0.0,0.0057
+No Daylighting controls,13.6936,7.0129,2.9823,3.26,3.68795,1.0497,1.7743,0.0,0.00615
+No Daylighting windows,12.3562,7.0129,2.9823,3.26,3.397,0.9587,1.7743,0.0,0.0057
+Low 0.25 VLT Windows SCIF,12.3562,7.0129,2.9823,3.26,3.397,0.9587,1.7743,0.0,0.0057
+Fan Static Pressure Increase,12.19745,7.0129,2.9823,3.26,3.4998,1.42835,1.7743,0.0,0.0057
+Remove Windows 1st Flr SCIF,11.84345,7.0129,2.9823,3.26,3.30505,1.3691,1.7743,0.0,0.0057
