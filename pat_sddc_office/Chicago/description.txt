@@ -23,3 +23,6 @@ _extwall_R23_intwall_infil_dlc_dlw_vlt
     manually make Simple Glazing System Window Materials: AEDG-SmMdOff View Glazing North-mat LVLT, AEDG-SmMdOff View Glazing South-mat LVTL, AEDG-SmMdOff View Glazing EastWest-mat LVTL
     manually make Constructions for LVLT
     apply ScifLowVltWindows measure to change SCIF spaces to LVLT windows
+    
+_extwall_R23_intwall_infil_dlc_dlw_vlt_fan
+    apply FanPressureRise measure w 2inH2O; no exhaust fan increase for DOAS
