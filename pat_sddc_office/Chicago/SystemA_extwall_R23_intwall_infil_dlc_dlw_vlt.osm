@@ -21364,7 +21364,7 @@ OS:SubSurface,
   {5b740c00-2f3e-4fa0-9294-dd29a76bd4f8}, !- Handle
   Sub Surface 2,                          !- Name
   FixedWindow,                            !- Sub Surface Type
-  {e7396a67-9b15-415d-8913-14342850c4d7}, !- Construction Name
+  {b506f539-bc70-427d-b968-5515e1fd03dc}, !- Construction Name
   {6facdc21-4424-4f88-9c91-c46f06d9c69d}, !- Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -21650,7 +21650,7 @@ OS:SubSurface,
   {4db2f521-54b8-4858-9fe5-b97aea3ebdec}, !- Handle
   Sub Surface 11,                         !- Name
   FixedWindow,                            !- Sub Surface Type
-  {facde0db-816c-468f-9491-9e63cc0d94df}, !- Construction Name
+  {26401185-1896-413f-931c-21ce1cd2df3f}, !- Construction Name
   {0c89064c-79e4-477d-b0f8-ad0575efc98e}, !- Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -21666,7 +21666,7 @@ OS:SubSurface,
   {aaf3686a-c59c-4abd-83e2-879831dc4c95}, !- Handle
   Sub Surface 13,                         !- Name
   FixedWindow,                            !- Sub Surface Type
-  {b48bc683-4d30-4f07-af69-34b9c8674594}, !- Construction Name
+  {2ea75768-9385-4640-9a4b-f966589fb81b}, !- Construction Name
   {13937004-0792-4702-8c93-4f3a79e30194}, !- Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -21682,7 +21682,7 @@ OS:SubSurface,
   {6661c616-8a5f-41d3-89f4-7af06bf7f383}, !- Handle
   Sub Surface 15,                         !- Name
   FixedWindow,                            !- Sub Surface Type
-  {e7396a67-9b15-415d-8913-14342850c4d7}, !- Construction Name
+  {b506f539-bc70-427d-b968-5515e1fd03dc}, !- Construction Name
   {5988378a-b5ad-4414-8807-62c0282df5e4}, !- Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -21698,7 +21698,7 @@ OS:SubSurface,
   {1da7332b-5cb2-469f-8277-a538899aee64}, !- Handle
   Sub Surface 16,                         !- Name
   FixedWindow,                            !- Sub Surface Type
-  {e7396a67-9b15-415d-8913-14342850c4d7}, !- Construction Name
+  {b506f539-bc70-427d-b968-5515e1fd03dc}, !- Construction Name
   {1c925975-f8f6-455e-b3fe-3d2ae414c7f5}, !- Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -21714,7 +21714,7 @@ OS:SubSurface,
   {55b59244-847e-4b83-b5cc-9ffff7eedbf5}, !- Handle
   Sub Surface 17,                         !- Name
   FixedWindow,                            !- Sub Surface Type
-  {facde0db-816c-468f-9491-9e63cc0d94df}, !- Construction Name
+  {26401185-1896-413f-931c-21ce1cd2df3f}, !- Construction Name
   {04e692df-42df-4be7-b6e4-51fd4339c4f6}, !- Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -21730,7 +21730,7 @@ OS:SubSurface,
   {fc8294c3-eb57-42fd-9b96-0d37c97a157c}, !- Handle
   Sub Surface 19,                         !- Name
   FixedWindow,                            !- Sub Surface Type
-  {b48bc683-4d30-4f07-af69-34b9c8674594}, !- Construction Name
+  {2ea75768-9385-4640-9a4b-f966589fb81b}, !- Construction Name
   {3d78306c-dac4-4648-b85a-958ec31e23da}, !- Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -21746,7 +21746,7 @@ OS:SubSurface,
   {bd399dbf-ee42-436c-88c0-1d19e51e04e2}, !- Handle
   Sub Surface 21,                         !- Name
   FixedWindow,                            !- Sub Surface Type
-  {facde0db-816c-468f-9491-9e63cc0d94df}, !- Construction Name
+  {26401185-1896-413f-931c-21ce1cd2df3f}, !- Construction Name
   {67b867a9-088e-467f-9099-985c37bcdcef}, !- Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
@@ -21762,7 +21762,7 @@ OS:SubSurface,
   {8d94d040-a64c-49cc-9b3a-51f7bb208b70}, !- Handle
   Sub Surface 23,                         !- Name
   FixedWindow,                            !- Sub Surface Type
-  {b48bc683-4d30-4f07-af69-34b9c8674594}, !- Construction Name
+  {2ea75768-9385-4640-9a4b-f966589fb81b}, !- Construction Name
   {62c46fdf-cffe-4f6f-a80d-166226d35e57}, !- Surface Name
   ,                                       !- Outside Boundary Condition Object
   ,                                       !- View Factor to Ground
